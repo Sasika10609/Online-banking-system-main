@@ -1,0 +1,128 @@
+body{
+    background-image: url(img/10.jpg);
+    background-repeat: no-repeat;
+    background-size: 1550px 950px;
+    background-attachment: fixed;
+    height: fit-content;
+}
+#t1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7rem;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.368);
+    display: flex;
+    height: 8rem;
+}
+#p1{
+    margin: auto;
+    position: relative;
+    right: 13rem;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.368);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: 3rem;
+}
+#ft{
+    display: flex;
+    font-size: 20px;
+    margin-left: 37rem;
+    margin-top: 10px;
+    color: white;
+}
+#t2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    top: -12rem;
+}
+#pwr{
+    position: relative;
+    right: 4rem;
+    top: 2rem;
+}
+#pwr:hover{
+    transform: scale(1.2);
+}
+#t3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    top: -12.5rem;
+}
+#btn1{
+    background-color: green;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    width: 10rem;
+    height: 3rem;
+}
+#btn1:hover{
+    transition: all ease 0.2s;
+    background-color: rgb(186, 255, 83);
+    color: black;
+}
+.tx ul{
+    display: flex;
+    list-style: none;
+}
+.tx li{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    text-decoration: none;
+    margin-left: 2.5rem;
+    margin-left: 2.5rem;
+}
+.tx li:hover{
+    color: yellowgreen;
+    transition: all ease 0.4s;
+}
+.pro{
+    background-color: rgba(0, 0, 0, 0.522);
+    width: 30rem;
+    height: 30rem;
+    padding-top: -15rem;
+    position: relative;
+    left: 2rem;
+    border-radius: 3%;
+}
+.pro1{
+    padding-left: 4.5rem;
+    padding-top: 5rem;
+}
+.pro2{
+    position: relative;
+    left: 40rem;
+    bottom: 10rem;
+}
+.tx{
+    position: relative;
+    right: 23rem;
+    top: 2rem;
+}
+#t4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: rgb(244, 228, 17);
+    padding-left: 4.5rem;
+}
+#t5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1rem;
+}
+#t6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding-right: 2rem;
+    padding-top: 1.3rem;
+    z-index: 2;
+}
